@@ -5,15 +5,16 @@
     </head>
     <body>
         <form>
+            
             <fieldset>
-                <legend style = " text-align: center; font-weight: bold;">Personal Form</legend>
+                <legend style = "text-align: center; color: blue  "> PERSONAL INFORMATION </legend>
             
             <label for="username">Username: </label>
-            <input type="text" id="username" name="username">
+            <input type="text" id="username" name="username" value="serve" readonly>
             <br>
             <br>
             <label for="password">Password: </label>
-            <input type="password" id="password" name="password">
+            <input type="password" id="password" name="password" required>
             <br>
             <br>
             <p>Favorite Subjects in School?(May choose morethan one option)</p>
@@ -34,7 +35,7 @@
             <label for="coding2">Senior Level</label>
             <br>
             <br>
-            <label>Upload your CV/Resume:</label>
+            <label for="file"> Upload your CV/Resume: </label>
             <input type="file" id="file" name="file">
             <br>
             <br>
@@ -53,6 +54,8 @@
             <br>
             <label for="textarea">Comments: </label>
             <textarea id="textarea" name="textarea"></textarea>
+
+            
             </fieldset>
         </form>
     </body>
